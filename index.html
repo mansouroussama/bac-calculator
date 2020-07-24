@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAC Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+  <body>
+    <h1>Calculer votre moyenne et score du Baccalauréat:</h1>
+    <h2>pour section Sciences Techniques (2020)</h2>
+    <section class="calculator">
+        <p class='info'>Entrer vos notes ici:</p>
+        <div class="subject">
+            <h3>Math:</h3>
+            <input type="number" id="math" placeholder="0">
+            <p class='coef'>(x3)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Sc. Physiques:</h3>
+            <input type="number" id="phys" placeholder="0">
+            <p class='coef'>(x3)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Sc. Techniques:</h3>
+            <input type="number" id="tech" placeholder="0">
+            <p class='coef'>(x3)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Anglais:</h3>
+            <input type="number" id="angl" placeholder="0">
+            <p class='coef'>(x1)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Francais:</h3>
+            <input type="number" id="franc" placeholder="0">
+            <p class='coef'>(x1)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Arabe:</h3>
+            <input type="number" id="arabe" placeholder="0">
+            <p class='coef'>(x1)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Philo:</h3>
+            <input type="number" id="philo" placeholder="0">
+            <p class='coef'>(x1)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Info:</h3>
+            <input type="number" id="info" placeholder="0">
+            <p class='coef'>(x1)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Sport:</h3>
+            <input type="number" id="sport" placeholder="0">
+            <p class='coef'>(x1)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>TP Sc. Techniques:</h3>
+            <input type="number" id="tp-tech" placeholder="0">
+            <p class='coef'>(x1)</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="subject">
+            <h3>Allemand:</h3>
+            <input type="number" id="allemand" placeholder="0">
+            <p class='coef'>(x0) | points += [Max(Allemand - 10), 0]</p>
+            <div class="clearfix"></div>
+        </div>
+        <button type="button" class="button reset">Effacer</button>
+        <button type="button" class="button load">Charger</button>
+        <div class="clearfix"></div>
+    </section>
+    <section class="output">
+        <p>Votre moyenne est: <span id="average">0</span></p>
+        <p>Votre score est: <span id="old-score">0</span> / <span id="new-score">0</span></p>
+        <a class="formulas" id="formulasButton" href='javascript:void(0)'>[Voir Formules]</a>
+        <p class="formula old-formula hidden"><label>Etranger: </label>5MG + 2M + 1T + 1P + 1PH + 1FR + Max [(( Ang - 12 )/3), 0]</p>
+        <p class="formula new-formula hidden"><label>Tunisie: </label>4MG + 1.5M + 1.5T + 1P + 1PH + 1FR + 1ANG</p>
+    </section>
+  </body>
+  <script src="js/script.js"></script>
+</html>

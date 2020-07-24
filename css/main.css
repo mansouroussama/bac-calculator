@@ -1,0 +1,122 @@
+/* BAC CALCULATOR */
+
+*, *::before, *::after {
+  box-sizing:border-box;
+  font-family:'BioRhyme', serif;
+}
+button {
+  outline:none
+}
+.clearfix {
+  clear:both
+}
+html {
+  font-size:10px
+}
+body {
+  background-color:#21252b;
+  color:#fff;
+  margin:0;
+  text-align:center
+}
+h1 {
+  margin:5rem 0 .5rem 0;
+  font-size:3rem;
+}
+h2 {
+  margin:0;
+  font-size:1.8rem;
+  font-weight:400;
+  color:#5c6370;
+}
+section.calculator {
+  background-color:#282c34;
+  max-width:80rem;
+  margin:5rem auto 4rem;
+  padding:2.5rem 0 1.5rem 0;
+  border-radius:1rem;
+}
+section.calculator .info {
+  font-size:1.7rem;
+  margin:0 0 2rem 0;
+  line-height:5rem;
+  color:#568af2
+}
+section.calculator .subject {
+  width:40rem;
+  padding:0 4rem;
+  float:left;
+  margin-bottom:2rem;
+  text-align:left;
+}
+section.calculator .subject h3 {
+  display:inline-block;
+  width:24rem;
+  font-size:1.4rem;
+  font-weight:400;
+  float:left;
+  line-height:2.6rem;
+  margin:0;
+}
+section.calculator .subject input {
+  display:inline-block;
+  width:8rem;
+  border:none;
+  float:right;
+  padding:.7rem 1rem;
+  border-radius:.2rem;
+  font-size:1.6rem;
+}
+section.calculator .subject .coef {
+  display:inline-block;
+  margin:0;
+  color:#6D7888;
+  position:relative;
+  top:-3px;
+}
+section.calculator .button {
+  display:inline-block;
+  border:none;
+  padding:1rem 0;
+  width:8rem;
+  border-radius:.2rem;
+  cursor:pointer;
+  float:right;
+}
+section.calculator .reset {
+  background-color:#568af2;
+  margin-right:4rem;
+}
+section.calculator .load {
+  background-color:#fff;
+  margin-right:1rem;
+}
+section.output {
+  margin-bottom:5rem;
+}
+section.output p {
+  margin:0;
+  font-size:1.6rem;
+  line-height:3.2rem;
+  font-weight:400
+}
+section.output p span {
+  color:#ff9800
+}
+section.output .formulas {
+  color:#568af2;
+  font-size:1.3rem;
+  display:inline-block;
+  margin:1rem 0 .5rem 0;
+}
+section.output .formula {
+  color:#6D7888;
+  font-size:1.3rem;
+}
+section.output .formula label {
+  color:#bbb;
+  text-transform:uppercase;
+}
+section.output .formula.hidden {
+  display:none
+}
