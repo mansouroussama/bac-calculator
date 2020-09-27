@@ -2,7 +2,7 @@
 
 *, *::before, *::after {
   box-sizing:border-box;
-  font-family:'BioRhyme', serif;
+  font-family:'Open Sans', sans-serif;
 }
 button {
   outline:none
@@ -22,12 +22,14 @@ body {
 h1 {
   margin:5rem 0 .5rem 0;
   font-size:3rem;
+  font-family:'BioRhyme', serif;
 }
 h2 {
   margin:0;
   font-size:1.8rem;
   font-weight:400;
   color:#5c6370;
+  font-family:'BioRhyme', serif;
 }
 section.calculator {
   background-color:#282c34;

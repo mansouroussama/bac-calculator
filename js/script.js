@@ -54,17 +54,17 @@ getScoresAndCalculate();
 // Load button
 loadBtn.addEventListener('click', () => {
 
-  document.querySelector('#math').value = "16.5";
-  document.querySelector('#phys').value = "19";
-  document.querySelector('#tech').value = "19.5";
-  document.querySelector('#angl').value = "19";
-  document.querySelector('#franc').value = "17.5";
-  document.querySelector('#arabe').value = "12.5";
-  document.querySelector('#philo').value = "13.5";
-  document.querySelector('#info').value = "18.5";
-  document.querySelector('#sport').value = "19.5";
+  document.querySelector('#math').value = "15.25";
+  document.querySelector('#phys').value = "15.25";
+  document.querySelector('#tech').value = "18.52";
+  document.querySelector('#angl').value = "17";
+  document.querySelector('#franc').value = "11.5";
+  document.querySelector('#arabe').value = "12.75";
+  document.querySelector('#philo').value = "11.25";
+  document.querySelector('#info').value = "18.75";
+  document.querySelector('#sport').value = "19.17";
   document.querySelector('#tp-tech').value = "19.41";
-  document.querySelector('#allemand').value = "19.75";
+  document.querySelector('#allemand').value = "19.5";
 
 getScoresAndCalculate();
 
